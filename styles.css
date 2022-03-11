@@ -3,6 +3,10 @@
   display: none;
 }
 
+.cover {
+  background-color: #8db596 !important;
+}
+
 footer {
   height: 50px;
   position: fixed;
