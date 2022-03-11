@@ -78,7 +78,7 @@ function clearError() {
 // copyright date function
 
 let year = document.querySelector('#copy-date');
-year.innerHTML = `Iyimide <i class="far fa-copyright"><span> ${theDate()}</span>`;
+year.innerHTML = `Iyimide <i class="far fa-copyright"><span> 2021-${theDate()}</span>`;
 function theDate() {
   return new Date().getFullYear();
 }
